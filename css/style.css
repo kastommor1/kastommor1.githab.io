@@ -185,7 +185,7 @@ nav li a:hover{
     left: 0;
     margin: 0 9.5%;
     top: 44%;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 
 .sl1{
@@ -213,7 +213,7 @@ nav li a:hover{
     position: absolute;
     left: 4%;
     top: 48%;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 
 .arrow_left i, .arrow_right i {
@@ -225,7 +225,7 @@ nav li a:hover{
     position: absolute;
     right: 1%;
     top: 48%;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 /*.request*/
 .request{
@@ -265,7 +265,7 @@ nav li a:hover{
 
 .slider{
      position: relative;
-     outline: 1px solid red;
+     outline: 0px solid red;
      width: 100%;
 
  }
@@ -274,14 +274,14 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 100%;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 
 .slider_info{
     position: relative;
     float: left;
     width: 50%;
-    outline: 1px solid red;
+    outline: 0px solid red;
     background-color: #000;
 }
 
@@ -296,7 +296,7 @@ nav li a:hover{
     top: 35%;
     left: 14%;
     right: 10%;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 
 .slider_text h1{
@@ -316,7 +316,7 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 50%;
-    outline: 1px solid red;
+    outline: 0px solid red;
     margin-bottom: -8px;
 }
 
@@ -324,7 +324,7 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 50%;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 
 .slider_half img{
@@ -336,7 +336,7 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 50%;
-    outline: 1px solid red;
+    outline: 0px solid red;
     text-align: center;
     margin-top: 25%;
 }
@@ -356,11 +356,11 @@ nav li a:hover{
     position: relative;
     padding: 0 51px;
     margin: 0 auto;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 .item1{
     display: inline-block;
-    outline: 1px solid green;
+    outline: 0px solid green;
     margin-top: 5%;
     width: 33%;
     min-height: 410px;
@@ -387,7 +387,7 @@ nav li a:hover{
 .property-icon{
     height: 135px;
     width: 135px;
-    outline: 1px solid blue;
+    outline: 0px solid blue;
     margin: 1% auto;
     text-align: center;
 }
@@ -399,7 +399,7 @@ nav li a:hover{
     background: #000 url("../img/Car-USP.png") no-repeat top right ;
     width: 100%;
     height: 194px;
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 
 /*.logo-usp{*/
@@ -448,14 +448,14 @@ nav li a:hover{
     position: relative;
     width: 100%;
     /*height: 200px;*/
-    outline: 1px solid red;
+    outline: 0px solid red;
 }
 
 .dest_in{
     position: relative;
     width: 20%;
     float: left;
-    outline: 1px solid green;
+    outline: 0px solid green;
 }
 
 .dest_in img{
@@ -477,12 +477,12 @@ nav li a:hover{
 .partner{
     position: relative;
     max-width: 1128px;
-    outline: 1px solid red;
+    outline: 0px solid red;
     margin: 58px auto 78px;
 }
 .partner li{
     display: block;
-    outline: 1px solid green;
+    outline: 0px solid green;
     float: left;
     margin: 8px 41px;
     width: 150;
@@ -494,7 +494,7 @@ nav li a:hover{
 .about{
     position: relative;
     background-color: #242424;
-    outline: 1px solid red;
+    outline: 0px solid red;
     padding: 58px 120px 31px 140px;
 
 }
@@ -503,7 +503,7 @@ nav li a:hover{
     width: 24.8%;
     min-height: 291px;
     float: left;
-    outline: 1px solid green;
+    outline: 0px solid green;
 
 }
 
@@ -918,7 +918,7 @@ text-align: left;
         position: relative;
         padding: 0 0;
         margin: 0 auto;
-        outline: 1px solid red;
+        outline: 0px solid red;
     }
 
 
