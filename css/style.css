@@ -56,6 +56,10 @@ a:hover{
 .fa-location-arrow{
     color: #000;
 }
+.phone_r{
+    margin-right: 10px;
+}
+
 .city{
     background: #000;
     color: #fff;
@@ -121,8 +125,14 @@ a:hover{
 
 
 .navigation{
+    position: absolute;
+    left: 0;
+    top: 0;
     background: #000;
+    opacity: 0.8;
     padding: 0 148px 0 100px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .navigation nav{
     float: left;
@@ -174,8 +184,8 @@ nav li a:hover{
     position: absolute;
     left: 0;
     margin: 0 9.5%;
-    top: 37%;
-    outline: 0px solid red;
+    top: 44%;
+    outline: 1px solid red;
 }
 
 .sl1{
@@ -202,8 +212,8 @@ nav li a:hover{
 .arrow_left{
     position: absolute;
     left: 4%;
-    top: 42%;
-    outline: 0px solid red;
+    top: 48%;
+    outline: 1px solid red;
 }
 
 .arrow_left i, .arrow_right i {
@@ -214,8 +224,8 @@ nav li a:hover{
 .arrow_right{
     position: absolute;
     right: 1%;
-    top: 42%;
-    outline: 0px solid red;
+    top: 48%;
+    outline: 1px solid red;
 }
 /*.request*/
 .request{
@@ -224,7 +234,7 @@ nav li a:hover{
     background: #bf242d;
 }
 
-.request button{
+.button{
     padding: 16px 29px;
     border-radius: 5px;
     float: right;
@@ -255,7 +265,7 @@ nav li a:hover{
 
 .slider{
      position: relative;
-     outline: 0px solid red;
+     outline: 1px solid red;
      width: 100%;
 
  }
@@ -264,14 +274,14 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 100%;
-    outline: 0px solid red;
+    outline: 1px solid red;
 }
 
 .slider_info{
     position: relative;
     float: left;
     width: 50%;
-    outline: 0px solid red;
+    outline: 1px solid red;
     background-color: #000;
 }
 
@@ -286,7 +296,7 @@ nav li a:hover{
     top: 35%;
     left: 14%;
     right: 10%;
-    outline: 0px solid red;
+    outline: 1px solid red;
 }
 
 .slider_text h1{
@@ -306,7 +316,7 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 50%;
-    outline: 0px solid red;
+    outline: 1px solid red;
     margin-bottom: -8px;
 }
 
@@ -314,7 +324,7 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 50%;
-    outline: 0px solid red;
+    outline: 1px solid red;
 }
 
 .slider_half img{
@@ -326,7 +336,7 @@ nav li a:hover{
     position: relative;
     float: left;
     width: 50%;
-    outline: 0px solid red;
+    outline: 1px solid red;
     text-align: center;
     margin-top: 25%;
 }
@@ -344,13 +354,13 @@ nav li a:hover{
 
 .property{
     position: relative;
-    max-width: 1300px;
+    padding: 0 51px;
     margin: 0 auto;
-    outline: 0px solid red;
+    outline: 1px solid red;
 }
 .item1{
     display: inline-block;
-    outline: 0px solid green;
+    outline: 1px solid green;
     margin-top: 5%;
     width: 33%;
     min-height: 410px;
@@ -377,7 +387,7 @@ nav li a:hover{
 .property-icon{
     height: 135px;
     width: 135px;
-    outline: 0px solid blue;
+    outline: 1px solid blue;
     margin: 1% auto;
     text-align: center;
 }
@@ -389,14 +399,14 @@ nav li a:hover{
     background: #000 url("../img/Car-USP.png") no-repeat top right ;
     width: 100%;
     height: 194px;
-    outline: 0px solid red;
+    outline: 1px solid red;
 }
 
 /*.logo-usp{*/
     /*position: absolute;*/
     /*top: 27%;*/
     /*left: 23%;*/
-    /*outline: 0px solid red;*/
+    /*outline: 1px solid red;*/
 /*}*/
 
 
@@ -438,14 +448,14 @@ nav li a:hover{
     position: relative;
     width: 100%;
     /*height: 200px;*/
-    outline: 0px solid red;
+    outline: 1px solid red;
 }
 
 .dest_in{
     position: relative;
     width: 20%;
     float: left;
-    outline: 0px solid green;
+    outline: 1px solid green;
 }
 
 .dest_in img{
@@ -467,12 +477,12 @@ nav li a:hover{
 .partner{
     position: relative;
     max-width: 1128px;
-    outline: 0px solid red;
+    outline: 1px solid red;
     margin: 58px auto 78px;
 }
 .partner li{
     display: block;
-    outline: 0px solid green;
+    outline: 1px solid green;
     float: left;
     margin: 8px 41px;
     width: 150;
@@ -484,20 +494,20 @@ nav li a:hover{
 .about{
     position: relative;
     background-color: #242424;
-    outline: 0px solid red;
-    padding: 4% 5% 2.5% 10%;
+    outline: 1px solid red;
+    padding: 58px 120px 31px 140px;
 
 }
 
 .about_item{
-    width: 24%;
+    width: 24.8%;
     min-height: 291px;
     float: left;
-    outline: 0px solid green;
+    outline: 1px solid green;
 
 }
 
-.about_border{
+.about_border, .about_border_off{
     border-right: 1px solid #353535;
 }
 
@@ -505,22 +515,21 @@ nav li a:hover{
     color: #bf232c;
     font-size: 18px;
     text-transform: uppercase;
-    margin: 2% 0% 9% 11%;
+    margin: 5px 30px 26px 30px;
 }
 
 .about_item h3{
     color: #bf232c;
     font-size: 12px;
-    margin: 0 13%;
+    margin: 0 30px 0 30px;
 
 }
 
 .about_item p{
     color: #fff;
     font-size: 12px;
-    margin: 0 11% 3% 11%;
     line-height: 17px;
-    margin-bottom: 15px;
+    margin: 0 30px 15px 30px;
 }
 
 .about_item span{
@@ -531,19 +540,17 @@ nav li a:hover{
 
 
 /*COPYRIGHT*/
-.copyright{
+.copyright {
     position: relative;
-    width: 100%;
     background-color: #131313;
-    }
+    padding: 37px 150px 28px 170px;
+}
 
 .copyright_left{
     float: left;
-    margin: 35px 3px 0px 172px;
 }
 .copyright_right{
     float: right;
-    margin: 35px 156px 28px 3px;
 }
 
 .copyright p{
@@ -556,7 +563,7 @@ nav li a:hover{
         margin: 28px 10px 25px 40px;
     }
 
-    .request button {
+    .button {
         margin: 42px 46px 27px 10px;
     }
 
@@ -581,6 +588,13 @@ nav li a:hover{
 
     .dest_in a{
         font-size: 13px;
+    }
+
+    .about {
+        padding: 58px 40px 31px 60px;
+    }
+    .copyright {
+        padding: 37px 70px 28px 90px;
     }
 }
 @media screen and (max-width: 995px){
@@ -627,7 +641,7 @@ nav li a:hover{
         margin: 28px 60px 15px 39px;
     }
 
-    .request button {
+    .button {
         margin: 0px 46px 27px 10px;
     }
 
@@ -651,26 +665,45 @@ nav li a:hover{
         margin: 17px 0 0 33px;
     }
 
-
-    .copyright_left{
-        margin: 35px 3px 0px 39px;
+    .about_item {
+        width: 49.8%;
     }
 
-    .copyright_right {
-        margin: 35px 43px 28px 3px;
+    .about_border_off{
+        border-right: 0px solid #353535;
     }
+
 
 
 }
-@media screen and (max-width: 760px){
-    .address-block, .social-icons {
+
+@media screen and (max-width: 800px){
+    .copyright_left {
+         float: none;
+         padding-bottom: 10px;
+    }
+    .copyright_right {
         float: none;
-        text-align: center;
     }
 
-    .navigation{
-        position: relative;
+    .item1 {
+        width: 100%;
+        min-height: 0;
     }
+
+}
+@media screen and (max-width: 760px){
+    .address-block{
+        width: 180px;
+    }
+    div.phone, div.address {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /*.navigation{*/
+        /*position: relative;*/
+    /*}*/
 
 
     nav ul{
@@ -740,27 +773,27 @@ nav li a:hover{
         width: 100%;
     }
 
-    .item1 {
-        width: 100%;
-    min-height: 0;
-    }
-
     .dest_in {
         width: 33%;
     }
 
     .about_item {
-        width: 48%;
-        min-height: 337px;
+        width: 100%;
+        min-height: 0;
     }
+
+    .about_border{
+        border-right: 0px solid #353535;
+    }
+
 }
 
+@media screen and (max-width: 590px) {
+    .static-info ul li {
+        margin-right: 10px;
+    }
+
 @media screen and (max-width: 570px){
-div.phone,
-div.address{
-display: block;
-margin: 10px 0;
-}
 
 .static-info ul li{
 display: block;
@@ -785,12 +818,15 @@ text-align: left;
     }
     .sltext{
         margin: 0 12%;
-        top: 18%;
+        top: 36%;
     }
 
+
     .arrow_right, .arrow_left {
-        top: 28%;
+        top: 45%;
     }
+
+
 
     .slider_info {
         width: 100%;
@@ -811,6 +847,10 @@ text-align: left;
         height: 180px;
     }
 
+    .slider_text {
+        top: 37%;
+    }
+
     .logo-car_text p {
         font-size: 18px;
     }
@@ -819,10 +859,10 @@ text-align: left;
         width: 50%;
     }
 
-    .about_item {
-        width: 100%;
-        min-height: 0;
+    .dest_in_last{
+        float: none;
     }
+
 
 }
 
@@ -841,12 +881,18 @@ text-align: left;
     /*Slogan */
 
     .sltext {
-        margin: 0 18%;
-        top: 8%;
+        margin: 0 14%;
+        top: 43%;
     }
 
-    .arrow_left {
-        left: 9%;
+    .sl1{
+        font-size: 14px;
+    }
+    .sl2{
+        font-size: 14px;
+    }
+    .sl3{
+        font-size: 12px;
     }
 
     .request_text p {
@@ -855,6 +901,28 @@ text-align: left;
     .request_text h2 {
         font-size: 24px;
     }
+
+    .about {
+        padding: 58px 20px 31px 40px;
+    }
+
+    .copyright {
+        padding: 37px 50px 28px 70px;
+    }
+
+    .partner li {
+        margin: 8px 75px;
+    }
+
+    .property{
+        position: relative;
+        padding: 0 0;
+        margin: 0 auto;
+        outline: 1px solid red;
+    }
+
+
+}
 
 
 }
@@ -870,6 +938,9 @@ text-align: left;
     .navigation {
         padding: 0 50px;
     }
+    .slider_text {
+        top: 18%;
+    }
 
 
 }
@@ -878,21 +949,11 @@ text-align: left;
 
 @media screen and (max-width: 360px) {
 
-    /*.request*/
-    .request{
-        text-align: center;
+    .arrow_left {
+        left: 9%;
     }
 
-    .request button{
-        float: none;
-        margin: 10px 0;
-    }
-    .request_text{
-        float: none;
-        padding: 5px 20px;
-        text-align: left;
-        margin: 0;
-    }
+    /*.request*/
 
     .request_text h2{
         font-size: 14px;
@@ -904,17 +965,19 @@ text-align: left;
 
     /*Slogan */
 
-    .sltext{
+    .sltext {
         left: 12%;
-        top: 10%;
+        top: 46%;
+        margin: 0 11%;
     }
+
     .sl1{
-        font-size: 20px;
+        font-size: 12px;
         color: #bf232c;
     }
 
     .sl2{
-        font-size: 16px;
+        font-size: 12px;
         color: #ffffff;
     }
 
@@ -959,10 +1022,7 @@ text-align: left;
         padding: 23px 0;
         font-size: 14px;
     }
-    /*PARTNER*/
-    .partner li{
-        margin: 2% 25%;
-    }
+
     /*PROPERTY*/
     .item1{
         width: 100%;
